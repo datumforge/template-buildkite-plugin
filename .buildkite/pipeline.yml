@@ -4,6 +4,7 @@ steps:
       shellcheck#v1.3.0:
         files:
           - hooks/**
+          - scripts/**
 
   - label: ":rocket: Test"
     plugins:
