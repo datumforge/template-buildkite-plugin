@@ -1,7 +1,7 @@
 ---
 name: your name
 description: what your plugin does
-author: Equinix Metal
+author: Datum
 requirements:
   - if you have requirements
 configuration:
