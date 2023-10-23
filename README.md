@@ -2,7 +2,7 @@
 
 Check the [buildkite organization](https://github.com/buildkite-plugins) or [website](https://buildkite.com/plugins) to see if your plugin already exists or we can contribute to it !
 
-Be sure to update this readme with your plugin information after using the template repository.
+Be sure to update this readme with your plugin information after using the template repository - for more info checkout Buildkite's documentation [here](https://buildkite.com/docs/plugins)
 
 ## Example
 
@@ -21,6 +21,11 @@ steps:
 ## Developing
 
 Provide examples on how to modify and test, e.g.:
+
+To run the linter:
+```shell
+docker compose run --rm lint
+```
 
 To run the tests:
 
