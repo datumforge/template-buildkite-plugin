@@ -25,5 +25,5 @@ Provide examples on how to modify and test, e.g.:
 To run the tests:
 
 ```shell
-docker-compose run --rm tests
+docker compose run --rm tests
 ```
