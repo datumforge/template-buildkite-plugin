@@ -24,11 +24,11 @@ Provide examples on how to modify and test, e.g.:
 
 To run the linter:
 ```shell
-docker compose run --rm lint
+task lint
 ```
 
 To run the tests:
 
 ```shell
-docker compose run --rm tests
+task test
 ```
