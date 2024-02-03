@@ -1,5 +1,5 @@
 ---
-name: your name
+name: template-buildkite-plugin
 description: what your plugin does
 author: Datum
 requirements:
