@@ -1,4 +1,3 @@
-
 services:
 # You need to update this for your plugin name / location
   lint:
