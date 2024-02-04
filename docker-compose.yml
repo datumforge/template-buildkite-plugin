@@ -1,8 +1,8 @@
 services:
-# You need to update this for your plugin name / location
+  # You need to update this for your plugin name / location
   lint:
     image: buildkite/plugin-linter
-    command: ['--id', 'a-github-user/file-counter']
+    command: [ '--id', 'a-github-user/template' ]
     volumes:
       - ".:/plugin:ro"
   tests:

@@ -16,7 +16,7 @@ Add the following to your `pipeline.yml`:
 steps:
   - command: ls
     plugins:
-      - a-github-user/file-counter#v1.0.0:
+      - a-github-user/template#v1.0.0:
           pattern: '*.md'
 ```
 

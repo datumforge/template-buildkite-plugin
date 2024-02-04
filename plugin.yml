@@ -8,7 +8,7 @@ configuration:
   properties:
     propertyname:
       type: string
-  required:
-    - if any properties are required
+  required: []
+    # - if any properties are required
   dependencies:
     dependencyname: [dep]
