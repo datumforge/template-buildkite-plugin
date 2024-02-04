@@ -15,4 +15,4 @@ steps:
   - label: ":sparkles: Lint"
     plugins:
       plugin-linter#v3.2.0:
-        id: template
+        id: a-github-user/template
