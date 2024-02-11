@@ -10,8 +10,9 @@ steps:
     plugins:
       docker-compose#v4.16.0:
         run: tests
+        cli-version: 2
 
   - label: ":sparkles: Lint"
     plugins:
       plugin-linter#v3.2.0:
-        id: docker-login
+        id: a-github-user/template
